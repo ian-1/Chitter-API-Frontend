@@ -1,12 +1,18 @@
 body {
   background-color: #43443f;
+  color:#74fb52;
 }
 
 #title {
   color:#43443f;
 }
 
-#title_bar {
+#titleBar {
   background-color: #74fb52;
   padding-left: 5px;
+}
+
+.peepBox {
+  border-color: #74fb52;
+  border-width: 3px
 }

@@ -1,18 +1,28 @@
 body {
   background-color: #43443f;
   color:#74fb52;
+  font-family: 'monaco', monospace;
 }
 
-#title {
+.button {
+  cursor: pointer;
+  border-width: 5px;
+  background-color: #74fb52;
   color:#43443f;
+  font-size: 1em;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  width: 100px;
+  margin-bottom: 10px;
+}
+
+.peepBox {
+  border-color: #74fb52;
+  border-width: 3px;
 }
 
 #titleBar {
   background-color: #74fb52;
   padding-left: 5px;
-}
-
-.peepBox {
-  border-color: #74fb52;
-  border-width: 3px
+  color:#43443f;
 }
